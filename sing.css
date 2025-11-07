@@ -1,3 +1,4 @@
+/* hader1 */
 body {
   font-family: "Khmer OS Battambang", Arial, sans-serif;
   background-color: #ffffff;
@@ -12,6 +13,7 @@ header {
   padding: 10px 40px;
   background-color: #ffffff;
 }
+
 .logo {
   height: 80px;
   background-image: none;
@@ -31,14 +33,13 @@ header {
 
 .nav a,
 .b1 {
-  text-decoration: none;
   color: rgb(255, 255, 255);
-  background-color: #a36a48;
+  background-color: #c9b59c;
   padding: 10px 20px;
   border-radius: 25px;
-  font-weight: bold;
-  transition: margin-right 2s 0.5s;
 }
+
+/* hader1 */
 
 nav a:hover {
   background-color: #8b5538;
@@ -127,4 +128,40 @@ nav a:hover {
   font-size: 15px;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: "Khmer OS Battambang", "Khmer OS", sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+.badge {
+  display: inline-block;
+  border: 3px solid #007bff; /* បន្ថែមស៊ុមជុំវិញប្រអប់ */
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th,
+td {
+  border: 1px solid #999;
+  padding: 10px;
+}
+th {
+  background-color: #007bff;
+  color: white;
+}
+td {
+  background-color: #f1f1f1;
 }

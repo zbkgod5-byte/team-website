@@ -1,0 +1,71 @@
+/* hader1 */
+body {
+  font-family: "Khmer OS Battambang", Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 80px;
+  background-image: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  background: transparent;
+}
+.logo img {
+  height: 80px;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav a,
+.b1 {
+  color: rgb(255, 255, 255);
+  background-color: #c9b59c;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+/* hader1 */
+.facebook {
+  background: #1877f2;
+}
+.phone {
+  background: #28a745;
+}
+.email {
+  background: #ff9900;
+}
+
+.header1 {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.header1 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.header1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+}
