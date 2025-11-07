@@ -1,0 +1,173 @@
+/* hader1 */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 80px;
+  background-image: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  background: transparent;
+}
+.logo img {
+  height: 80px;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav a,
+.b1 {
+  color: rgb(255, 255, 255);
+  background-color: #c9b59c;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+/* hader1 */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 80px;
+}
+
+.hero-text {
+  font-size: 5em;
+  font-weight: bold;
+  color: #2f2f2f;
+  line-height: 1.1em;
+}
+
+.img1 {
+  float: right;
+  width: 100%;
+  height: 50vh;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero1 {
+  background: url("487209751_1085329656954658_2916917897006945458_n.jpg")
+    center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero1-content {
+  position: relative;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero1 h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero1 p {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #b92c38;
+}
+
+/* Icons Section */
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 10%;
+  background: #fff;
+}
+
+.icon-box {
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+}
+
+.icon-box img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.icon-box h3 {
+  margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 10%;
+  background: #f8f9fa;
+}
+
+.service-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  margin: 15px 0 10px;
+}
+
+.service-card p {
+  padding: 0 15px 20px;
+  font-size: 14px;
+  color: #555;
+}
